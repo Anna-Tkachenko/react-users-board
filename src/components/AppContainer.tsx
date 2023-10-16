@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { Divider, Paper, Typography } from '@mui/material';
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export const AppContainer: FC<Props> = React.memo(({ children }) => {
